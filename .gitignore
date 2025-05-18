@@ -1,0 +1,40 @@
+# Archivos de sistema (macOS, Linux, Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter/Colab notebooks temporales
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Archivos de configuración de editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Datos temporales / intermedios
+*.log
+*.tmp
+*.bak
+output_data/*.csv
+*.zip
+
+# Archivos personales / backups
+*~
+*.swp
+
+# Datos sensibles (opcional si existen)
+.env
+token.json
+secrets.json
